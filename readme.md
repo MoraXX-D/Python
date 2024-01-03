@@ -75,6 +75,7 @@ dictionary always maintain a clear connection between each keys & it associative
 One way to return the item in a certain order in to sort the keys as they are returned in the for loop.
 
 we can use the .sorted() method to get copy of the key in order 
+
 for name in sorted(favoriteLanguages.keys()):
     print(name.title() + " thanks for choosing " +
           favoriteLanguages[name].title())
@@ -206,8 +207,9 @@ while active:
         print(message)
 
 
-# break statement
+**break statement** --> To exit a while loop immediately without running any remaining code in the loop,
+                        regardless of the result of any conditional test, use the break statement.
 
-To exit a while loop immediately without running any remaining code in the loop,
-regardless of the result of any conditional test, use the break statement.
+**continue statement**  --> The continue statement is use to return to the beginning of the loop based on the result
+                            of a conditional statement
 
