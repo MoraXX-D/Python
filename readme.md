@@ -213,3 +213,39 @@ while active:
 **continue statement**  --> The continue statement is use to return to the beginning of the loop based on the result
                             of a conditional statement
 
+# FUNCTION
+
+*function* are named block of code that are designed to do one specific job.
+when you want to perform a particular task that you've defined in a function,
+you call the name of function responsible for it.
+
+def greetUser():
+    '''Display a simple greeting'''
+    print("Hello!")
+
+greetUser()
+
+The *def* keyword is use to inform python that you are defining a function.
+
+The ***'''Display a simple greeting'''*** is a commented text called **docstring** 
+Which describe what a function does. Docstring are enclosed in a triple quotation either
+'''xyz''' or """xyz"""
+
+To call a function, We write the name of the function, followed by any neccessary information
+in parentheses.
+
+We can pass information in function by adding a variable in the parentheses.
+
+def greetUser(username):
+    '''Display a simple greeting'''
+    print("Hello! " + username.title())
+
+greetUser('Eren')
+
+The variable 'username' in the defination of greetUser is an example of ***parameter***,
+a part of information the function needs to do its job.
+
+The value 'Eren' in greetUser('Eren') is a example of ***argument***
+An argument is a peice of information that is passed from a function call to 
+a function.
+
