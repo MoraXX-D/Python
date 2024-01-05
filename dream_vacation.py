@@ -14,4 +14,4 @@ while poll_active:
         break
 
 for name,location in dream_vacation.items():
-    print(name + " would like to visit " + location)
+    print(name.title() + " would like to visit " + location.title())
